@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2239BB920694C6800896386 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2239BB820694C6800896386 /* AppDelegate.swift */; };
+		C2239BBB20694C6800896386 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2239BBA20694C6800896386 /* ViewController.swift */; };
+		C2239BBE20694C6800896386 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2239BBC20694C6800896386 /* Main.storyboard */; };
+		C2239BC120694C6800896386 /* WhatWatch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C2239BBF20694C6800896386 /* WhatWatch.xcdatamodeld */; };
+		C2239BC320694C6800896386 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2239BC220694C6800896386 /* Assets.xcassets */; };
+		C2239BC620694C6800896386 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2239BC420694C6800896386 /* LaunchScreen.storyboard */; };
+		C2239BD120694C6900896386 /* WhatWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2239BD020694C6900896386 /* WhatWatchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2239BCD20694C6900896386 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2239BAD20694C6800896386 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2239BB420694C6800896386;
+			remoteInfo = WhatWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C2239BB520694C6800896386 /* WhatWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2239BB820694C6800896386 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C2239BBA20694C6800896386 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C2239BBD20694C6800896386 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C2239BC020694C6800896386 /* WhatWatch.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WhatWatch.xcdatamodel; sourceTree = "<group>"; };
+		C2239BC220694C6800896386 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2239BC520694C6800896386 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C2239BC720694C6800896386 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2239BCC20694C6900896386 /* WhatWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2239BD020694C6900896386 /* WhatWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatWatchTests.swift; sourceTree = "<group>"; };
+		C2239BD220694C6900896386 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2239BB220694C6800896386 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2239BC920694C6900896386 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2239BAC20694C6800896386 = {
+			isa = PBXGroup;
+			children = (
+				C2239BB720694C6800896386 /* WhatWatch */,
+				C2239BCF20694C6900896386 /* WhatWatchTests */,
+				C2239BB620694C6800896386 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2239BB620694C6800896386 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2239BB520694C6800896386 /* WhatWatch.app */,
+				C2239BCC20694C6900896386 /* WhatWatchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2239BB720694C6800896386 /* WhatWatch */ = {
+			isa = PBXGroup;
+			children = (
+				C2239BB820694C6800896386 /* AppDelegate.swift */,
+				C2239BBA20694C6800896386 /* ViewController.swift */,
+				C2239BBC20694C6800896386 /* Main.storyboard */,
+				C2239BC220694C6800896386 /* Assets.xcassets */,
+				C2239BC420694C6800896386 /* LaunchScreen.storyboard */,
+				C2239BC720694C6800896386 /* Info.plist */,
+				C2239BBF20694C6800896386 /* WhatWatch.xcdatamodeld */,
+			);
+			path = WhatWatch;
+			sourceTree = "<group>";
+		};
+		C2239BCF20694C6900896386 /* WhatWatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2239BD020694C6900896386 /* WhatWatchTests.swift */,
+				C2239BD220694C6900896386 /* Info.plist */,
+			);
+			path = WhatWatchTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2239BB420694C6800896386 /* WhatWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2239BD520694C6900896386 /* Build configuration list for PBXNativeTarget "WhatWatch" */;
+			buildPhases = (
+				C2239BB120694C6800896386 /* Sources */,
+				C2239BB220694C6800896386 /* Frameworks */,
+				C2239BB320694C6800896386 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhatWatch;
+			productName = WhatWatch;
+			productReference = C2239BB520694C6800896386 /* WhatWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2239BCB20694C6900896386 /* WhatWatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2239BD820694C6900896386 /* Build configuration list for PBXNativeTarget "WhatWatchTests" */;
+			buildPhases = (
+				C2239BC820694C6900896386 /* Sources */,
+				C2239BC920694C6900896386 /* Frameworks */,
+				C2239BCA20694C6900896386 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2239BCE20694C6900896386 /* PBXTargetDependency */,
+			);
+			name = WhatWatchTests;
+			productName = WhatWatchTests;
+			productReference = C2239BCC20694C6900896386 /* WhatWatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2239BAD20694C6800896386 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Angel Rodriguez";
+				TargetAttributes = {
+					C2239BB420694C6800896386 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					C2239BCB20694C6900896386 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C2239BB420694C6800896386;
+					};
+				};
+			};
+			buildConfigurationList = C2239BB020694C6800896386 /* Build configuration list for PBXProject "WhatWatch" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2239BAC20694C6800896386;
+			productRefGroup = C2239BB620694C6800896386 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2239BB420694C6800896386 /* WhatWatch */,
+				C2239BCB20694C6900896386 /* WhatWatchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2239BB320694C6800896386 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2239BC620694C6800896386 /* LaunchScreen.storyboard in Resources */,
+				C2239BC320694C6800896386 /* Assets.xcassets in Resources */,
+				C2239BBE20694C6800896386 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2239BCA20694C6900896386 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2239BB120694C6800896386 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2239BBB20694C6800896386 /* ViewController.swift in Sources */,
+				C2239BC120694C6800896386 /* WhatWatch.xcdatamodeld in Sources */,
+				C2239BB920694C6800896386 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2239BC820694C6900896386 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2239BD120694C6900896386 /* WhatWatchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2239BCE20694C6900896386 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2239BB420694C6800896386 /* WhatWatch */;
+			targetProxy = C2239BCD20694C6900896386 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C2239BBC20694C6800896386 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2239BBD20694C6800896386 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C2239BC420694C6800896386 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2239BC520694C6800896386 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2239BD320694C6900896386 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C2239BD420694C6900896386 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2239BD620694C6900896386 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D69X76TN8G;
+				INFOPLIST_FILE = WhatWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AngelRodriguez.WhatWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2239BD720694C6900896386 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D69X76TN8G;
+				INFOPLIST_FILE = WhatWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AngelRodriguez.WhatWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C2239BD920694C6900896386 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D69X76TN8G;
+				INFOPLIST_FILE = WhatWatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AngelRodriguez.WhatWatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhatWatch.app/WhatWatch";
+			};
+			name = Debug;
+		};
+		C2239BDA20694C6900896386 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D69X76TN8G;
+				INFOPLIST_FILE = WhatWatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AngelRodriguez.WhatWatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhatWatch.app/WhatWatch";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2239BB020694C6800896386 /* Build configuration list for PBXProject "WhatWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2239BD320694C6900896386 /* Debug */,
+				C2239BD420694C6900896386 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2239BD520694C6900896386 /* Build configuration list for PBXNativeTarget "WhatWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2239BD620694C6900896386 /* Debug */,
+				C2239BD720694C6900896386 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2239BD820694C6900896386 /* Build configuration list for PBXNativeTarget "WhatWatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2239BD920694C6900896386 /* Debug */,
+				C2239BDA20694C6900896386 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C2239BBF20694C6800896386 /* WhatWatch.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C2239BC020694C6800896386 /* WhatWatch.xcdatamodel */,
+			);
+			currentVersion = C2239BC020694C6800896386 /* WhatWatch.xcdatamodel */;
+			path = WhatWatch.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C2239BAD20694C6800896386 /* Project object */;
+}
