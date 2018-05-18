@@ -9,7 +9,11 @@
 import UIKit
 
 class MovieTitleCell: UITableViewCell {
-
+    
+    static let nibName = "MovieTitleCell"
+    @IBOutlet weak var movieTitle: UILabel!
+    @IBOutlet weak var releaseDate: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -18,7 +22,7 @@ class MovieTitleCell: UITableViewCell {
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
-        // Configure the view for the selected state
     }
+    
     
 }

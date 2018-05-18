@@ -9,7 +9,10 @@
 import UIKit
 
 class DescriptionCell: UITableViewCell {
-
+    
+    static let nibName = "DescriptionCell"
+    @IBOutlet weak var movieDescription: UITextView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

@@ -17,6 +17,7 @@ class MovieView: UIView {
     @IBOutlet weak var rating: UILabel!
     @IBOutlet weak var genres: UITextView!
     @IBOutlet weak var overview: UITextView!
+    @IBOutlet weak var runtime: UILabel!
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -30,20 +31,30 @@ class MovieView: UIView {
     
     private func customInit() {
         Bundle.main.loadNibNamed("MovieView", owner: self, options: nil)
-        addSubview(contentView)
-        contentView.backgroundColor = UIColor.gray
-        self.backgroundColor = UIColor.gray
+        
+//        contentView.backgroundColor = UIColor.gray
+        
         contentView.frame = self.bounds
         contentView.autoresizingMask = [.flexibleHeight, .flexibleWidth]
+        addSubview(contentView)
     }
     
     func populateMovieView(movie: Movie) {
         movieTitle.text = movie.title
         releaseDate.text = movie.releaseDate
-        rating.text = "\(String(describing: movie.voteAverage))/10⭐️'s"
+        rating.text = "\(String(describing: movie.voteAverage!))/10⭐️'s"
         overview.text = movie.overview
         genres.text = genreArrayToText(genres: movie.genres)
-  
+        runtime.text = "\(movie.runtime ?? 0 )" 
+        guard let posterPath = movie.posterPath else { return }
+        guard let url = URL(string: "\(Constants.URL.posterBaseUrl)\(posterPath)") as URL?  else {
+            print("\(Constants.URL.posterBaseUrl)\(posterPath)")
+            
+            return
+        }
+        
+        movieImage.loadImageUsingCacheWithUrl(url: url, completion:{_ in })
+
     }
     
     func genreArrayToText(genres: [Genre]?) -> String{

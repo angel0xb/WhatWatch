@@ -6,8 +6,6 @@
 //  Copyright © 2018 Angel Rodriguez. All rights reserved.
 //
 
-import Foundation
-
 
 import Foundation
 
@@ -18,7 +16,7 @@ extension UIImageView {
     func loadImageUsingCacheWithUrl(url : URL, completion: @escaping (_ success: Bool)->() )
     {
         let urlString = url.absoluteString
-        self.image = nil;
+        self.image = Constants.Image.noPhoto;
         if let cachedImage = imageCache.object(forKey: urlString as AnyObject)  as? UIImage {
             self.image = cachedImage;
             //            print("I have been already saved")
@@ -31,8 +29,10 @@ extension UIImageView {
                 completion(false)
                 
             }
+            
             DispatchQueue.main.async {
-                if  let downloadedImage = UIImage(data: data!){
+                guard let data = data else{return}
+                if  let downloadedImage = UIImage(data: data){
                     //                    print("Done")
                     imageCache.setObject(downloadedImage, forKey: urlString as AnyObject)
                     self.image = downloadedImage

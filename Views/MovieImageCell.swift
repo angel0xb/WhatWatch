@@ -9,7 +9,10 @@
 import UIKit
 
 class MovieImageCell: UITableViewCell {
-
+    
+    static let nibName = "MovieImageCell"
+    @IBOutlet weak var movieImage: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

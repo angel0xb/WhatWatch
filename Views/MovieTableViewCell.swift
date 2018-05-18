@@ -49,10 +49,7 @@ class MovieTableViewCell: UITableViewCell {
         voteAverageLabel.text = "\(String(describing: movie.voteAverage!))/10⭐️'s"
         overviewTextField.text = movie.overview
         
-        guard let posterPath = movie.posterPath else {
-            
-            return
-        }
+        guard let posterPath = movie.posterPath else { return }
         guard let url = URL(string: "\(Constants.URL.posterBaseUrl)\(posterPath)") as URL?  else {
             print("\(Constants.URL.posterBaseUrl)\(posterPath)")
             
@@ -66,4 +63,6 @@ class MovieTableViewCell: UITableViewCell {
             }
         })
     }
+    
+    
 }
